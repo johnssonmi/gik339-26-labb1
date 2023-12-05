@@ -1,0 +1,42 @@
+body {
+    background-color: whitesmoke;
+  }
+  
+  .wrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  div.input-group {
+    display: grid;
+    color: black;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .input-field {
+    border-radius: 0.1rem;
+  }
+  
+  button {
+    padding: 0.5rem 2rem 0.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin-bottom: 0.3rem;
+    outline: 0;
+    border: 2px solid rgb(0, 71, 115);
+    background: rgb(0, 71, 115);
+    color: white;
+    cursor: pointer;
+  }
+  
+  #output {
+    padding: 2rem;
+    font-family: "Space Mono", monospace;
+    color: black;
+    border-radius: 0.3rem;
+    background: white;
+    box-shadow: 2px 2px 10px #2b2b2b;
+  }
+  
